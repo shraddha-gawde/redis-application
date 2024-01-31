@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,11 +20,15 @@
   <!-- 
     - google font link
   -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
 </head>
 
 <body id="top">
@@ -61,7 +65,7 @@
           </li>
 
           <li>
-            <a href="#skills" class="navbar-link" data-nav-link>Projects</a>
+            <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
           </li>
 
           <li>
@@ -110,9 +114,9 @@
             </div>
 
             <div class="elem elem-2">
-              <p class="elem-title">5+</p>
+              <p class="elem-title">1200+</p>
 
-              <p class="elem-text">projects</p>
+              <p class="elem-text">hrs of coding</p>
             </div>
 
             <!-- <div class="elem elem-3">
@@ -124,22 +128,33 @@
 
           </div>
 
+          
           <div class="hero-content">
-
-            <h2 class="hero-title">
-              <span>Hello I'm</span>
-              <strong>Ethan Ward</strong> Web Developer from New York
+            <!-- <div class="header-text">
+              <p>Java Backend Developer</p>
+              <h1>
+                Hi, I am <span class="typing"></span><br />from Maharashtra, India.
+              </h1>
+            </div>
+            <a href="/CV/Subhajit_Saha_Resume.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+            <a href="/CV/Subhajit_resume.pdf" class="btn">Download Resume</a>
+            </div> -->
+             <h2 class="hero-title">
+              Hello 👋, I am Shraddha Gawde<br />
+              <strong> <span class="typing"></span></strong><br />from Maharashtra, India.
             </h2>
 
             <p class="hero-text">
               Adipisicing elit. Neque nulla voluptatum eos repellat deserunt nesciunt tempore porro totam.
             </p>
 
-            <div class="btn-group">
-              <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+             <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">About Me</a>
 
-              <a href="#about" class="btn">About Me</a>
-            </div>
+              <a href="#" class="btn btn-primary blue">Download CV</a>
+            </div> 
 
           </div>
 
@@ -155,9 +170,12 @@
       -->
 
       <section class="section about" id="about">
+        <p class="section-subtitle" style="text-align: center;">About Me</p>
+        <h2 class="h2 section-title" style="text-align: center; margin-bottom: 50px;">I Develop Application that Help People </h2>
         <div class="container">
-
+          
           <figure class="about-banner">
+            
 
             <img src="./assets/images/IMG_20231217_210545-PhotoRoom.png-PhotoRoom.png" width="800" height="652" loading="lazy" alt="Ethan's Photo"
               class="img-cover">
@@ -174,7 +192,7 @@
             </div>
 
             <div class="abs-icon abs-icon-3">
-              <ion-icon name="logo-angular"></ion-icon>
+              <ion-icon name="logo-html5"></ion-icon>
             </div>
 
           </figure>
@@ -183,20 +201,23 @@
 
             <p class="section-subtitle">I'm a Developer</p>
 
-            <h2 class="h2 section-title">I Develop Application that Help People</h2>
+            
 
             <p class="section-text">
-              Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu
-              fugiat nulla pariatu epteur sint occaecat cupidatat
+              Enthusiastic Node.js Backend Developer with expertise in JavaScript, Express, and MongoDB. Skilled in problem-solving and code optimization to contribute innovative solutions. Collaborative team player with strong communication and excellent debugging skills. 
             </p>
 
             <p class="section-text">
-              Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-              omnis
+              Proactive and self-motivated with a strong command of backend development principles and best practices.
             </p>
 
-            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+            <h2 class="h2 section-title">Some of my interests apart from Coding:</h2>
+            <ul>
+              <li>reading</li>
+              <li>cooking</li>
+            </ul>
+
+            <!-- <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a> -->
 
           </div>
 
@@ -305,10 +326,10 @@
         - #PORTFOLIO
       -->
 
-      <section class="section portfolio" id="portfolio">
+      <section class="section portfolio" id="projects">
         <div class="container">
 
-          <p class="section-subtitle">Portfolio</p>
+          <p class="section-subtitle">Projects</p>
 
           <h2 class="h2 section-title">My Amazing Works</h2>
 
@@ -319,12 +340,30 @@
           <ul class="portfolio-list">
 
             <li>
-              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+              <div class="portfolio-card" style="background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(3, 3, 3, 0.5)), url('./assets/images/Screenshot\ 2024-01-31\ 165157.png');">
                 <div class="card-content">
 
-                  <p class="card-subtitle">Youtube</p>
+                  <p class="card-subtitle">The BistroBliss</p>
 
-                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+                  <h3 class="h3 card-title" >Web Application for Hotel room Booking</h3>
+
+                  <a href="https://neural-innovator-5123-lqyf.vercel.app/" target="_blank" ></a><span class="btn-link">
+                    <span>Live Demo</span>
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </span></a>
+                  <span class="btn-link">
+                    <span>Live Demo</span>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </div>
+              <!-- <a href="https://neural-innovator-5123-lqyf.vercel.app/" target="_blank" >
+                <div class="card-content">
+
+                  <p class="card-subtitle">The BistroBliss</p>
+
+                  <h3 class="h3 card-title" >Web Application for Hotel room Booking</h3>
 
                   <span class="btn-link">
                     <span>Live Demo</span>
@@ -336,14 +375,32 @@
                   </span>
 
                 </div>
-              </a>
+              </a> -->
             </li>
 
             <li>
-              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
+              <div class="portfolio-card" style="background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(3, 3, 3, 0.5)), url('./assets/images/Screenshot\ 2024-01-31\ 170307.png');">
                 <div class="card-content">
 
-                  <p class="card-subtitle">Vimeo</p>
+                  <p class="card-subtitle">The BistroBliss</p>
+
+                  <h3 class="h3 card-title" >Web Application for Hotel room Booking</h3>
+
+                  <a href="https://neural-innovator-5123-lqyf.vercel.app/" target="_blank" ></a><span class="btn-link">
+                    <span>Live Demo</span>
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </span></a>
+                  <span class="btn-link">
+                    <span>Live Demo</span>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </div>
+              <!-- <a href="#" class="portfolio-card" style="background-image: url('./assets/images/Screenshot\ 2024-01-31\ 170307.png')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">RideShareX</p>
 
                   <h3 class="h3 card-title">Web Application for Desiverse</h3>
 
@@ -354,11 +411,29 @@
                   </span>
 
                 </div>
-              </a>
+              </a> -->
             </li>
 
             <li>
-              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+              <div class="portfolio-card" style="background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(3, 3, 3, 0.5)), url('./assets/images/Screenshot\ 2024-01-31\ 200237.png');">
+                <div class="card-content">
+
+                  <p class="card-subtitle">The BistroBliss</p>
+
+                  <h3 class="h3 card-title" >Web Application for Hotel room Booking</h3>
+
+                  <a href="https://neural-innovator-5123-lqyf.vercel.app/" target="_blank" ></a><span class="btn-link">
+                    <span>Live Demo</span>
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </span></a>
+                  <span class="btn-link">
+                    <span>Live Demo</span>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </div>
+              <!-- <a href="#" class="portfolio-card" style="background-image: url('./assets/images/Screenshot\ 2024-01-31\ 200237.png')">
                 <div class="card-content">
 
                   <p class="card-subtitle">Soundcloud</p>
@@ -372,7 +447,7 @@
                   </span>
 
                 </div>
-              </a>
+              </a> -->
             </li>
 
             <li>
@@ -619,6 +694,10 @@
   <!-- 
     - custom js link
   -->
+  <!-- <script src="path/to/typed.min.js"></script> -->
+  <script>
+   
+  </script>
   <script src="./assets/js/script.js"></script>
 
   <!-- 

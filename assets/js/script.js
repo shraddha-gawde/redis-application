@@ -46,3 +46,21 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
+var typed = new Typed(".typing", {
+  strings: [
+    "Shraddha Gawde",
+    "A Node.js Backend Developer",
+    "always eager to learn new things",
+    "currently learning about AWS",
+  ],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true,
+});
+var typed = new Typed(".typi", {
+  strings: ["Backend Developer"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true
+});
