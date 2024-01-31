@@ -1008,6 +1008,12 @@ textarea.contact-input {
     background-color:#e54f24;
   }
 
+  .abs-icon-4 {
+    /* bottom: -40px; */
+    /* left: 250px; */
+    background-color:var(--bluetiful);
+    border-radius: 5px;
+  }
 
 
   /**
@@ -1074,4 +1080,55 @@ textarea.contact-input {
   .copyright,
   .footer-list { margin-inline: 0; }
 
+}
+.portfolio1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.skill {
+  position: relative;
+  margin: 20px;
+  overflow: hidden;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconify{
+  color: white;
+}
+
+.skill .logo {
+  /* width: 100px; */
+  height: 100px;
+  /* height: auto; */
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.skill:hover .logo {
+  transform: scale(1.2);
+}
+
+.skill:hover .skill-overlay {
+  opacity: 1;
 }
